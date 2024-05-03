@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Skills</title>
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      height: 100vh;
+      margin: 0;
+    }
+    .container {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+    }
+    .column {
+      width: 30%;
+      border: 2px solid #ccc; /* Add border to columns */
+      padding: 20px; /* Add padding to columns */
+      text-align: center; /* Center align content */
+    }
+    /* Add margin to separate columns */
+    .column:not(:last-child) {
+      margin-right: 20px;
+    }
+    /* Remove bullets from list items */
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    h3 {
+      text-decoration: underline; /* Underline h3 elements */
+    }
+    h2 {
+      font-weight: bold; /* Make h2 elements bold */
+    }
+  </style>
+</head>
+<body>
+
+<h2>Skills</h2>
+
+<div class="container">
+  <div class="column">
+    <h3>Computer Languages</h3>
+    <ul>
+      <li>C</li>
+      <li>C#</li>
+      <li>C++</li>
+      <li>JAVA</li>
+      <li>HTML5</li>
+      <li>CSS3</li>
+    </ul>
+  </div>
+
+  <div class="column">
+    <h3>Soft Skills</h3>
+    <ul>
+      <li>Time Management</li>
+      <li>Decision Making</li>
+      <li>Active Listening</li>
+    </ul>
+  </div>
+
+  <div class="column">
+    <h3>Computer Skills</h3>
+    <ul>
+      <li>Tina</li>
+      <li>Multisim</li>
+      <li>MS Office</li>
+      <li>Email Communication</li>
+      <li>Online Research</li>
+      <li>Image and Video Editing</li>
+    </ul>
+  </div>
+</div>
+
+</body>
+</html>
